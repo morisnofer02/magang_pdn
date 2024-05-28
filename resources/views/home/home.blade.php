@@ -10,7 +10,7 @@
 @endif
 
 @section('title')
-    Halaman Home
+    Home
 @endsection
 
 @section('content')
