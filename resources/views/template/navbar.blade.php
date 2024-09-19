@@ -22,6 +22,9 @@
           <a href="{{ route('pengguna') }}" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pengguna</a>
         </li>
         <li>
+          <a href="{{ route('kota') }}" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Kota</a>
+        </li>
+        <li>
           @if (Auth::check())
             <a href="{{ route('logout') }}" class="block py-2 px-3 text-white rounded border border-transparent bg-red-500 hover:border-red-500 hover:bg-transparent hover:text-red-500" onclick="return confirm('Anda yakin ingin logout?');">Logout</a>
           @else
@@ -29,6 +32,6 @@
           @endif
         </li>
       </ul>
-    </div>
+    </div>`
   </div>
 </nav>
